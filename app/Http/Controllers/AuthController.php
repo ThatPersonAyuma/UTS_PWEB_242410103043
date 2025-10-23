@@ -27,8 +27,6 @@ class AuthController extends Controller
             'email' => 'required|email',
             'password' => 'required',
         ]);
-        // Debug input
-        // dd($request->all()); 
         foreach ($this->users as $user) {
             if (
                 $request->email === $user['email'] &&

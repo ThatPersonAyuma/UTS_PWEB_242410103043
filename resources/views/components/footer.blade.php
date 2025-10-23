@@ -1,6 +1,5 @@
 <div class="container-fluid bg-dark text-white pt-5 pb-3">
     <div class="row">
-        <!-- Logo dan Deskripsi -->
         <div class="col-md-4 mb-3">
             <div class="d-flex align-items-center mb-2">
                 <img src="{{ asset('img/logo.png') }}" alt="Stadium Logo" style="height: 50px;">
@@ -11,7 +10,6 @@
             </p>
         </div>
 
-        <!-- Link Cepat -->
         <div class="col-md-4 mb-3">
             <h5>Link Cepat</h5>
             <ul class="list-unstyled">
@@ -22,7 +20,6 @@
             </ul>
         </div>
 
-        <!-- Kontak & Sosial Media -->
         <div class="col-md-4 mb-3">
             <h5>Kontak Kami</h5>
             <p class="small mb-1">Email: support@stadium.com</p>

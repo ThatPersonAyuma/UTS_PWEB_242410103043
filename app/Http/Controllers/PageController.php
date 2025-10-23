@@ -25,17 +25,14 @@ class PageController extends Controller
 
     public function index()
     {
-        // Ambil satu random welcome message
         $randomWelcome = $this->welcomes[array_rand($this->welcomes)];
 
-        // Kirim ke view
         return view('dashboard', [
             'welcomeMessage' => $randomWelcome
         ]);
     }
     public function dashboard()
     {
-        // ambil data dari model / dummy
         $data = [
             'title' => 'Selamat Datang di Website Kami',
             'description' => 'Website ini dibuat menggunakan Laravel.'
