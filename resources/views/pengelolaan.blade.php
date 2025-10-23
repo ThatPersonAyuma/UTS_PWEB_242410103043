@@ -1,0 +1,1 @@
+<x-navbar contentName='navbar.dashboard' :attributesData="[ 'userID' => $userID]" />
