@@ -6,7 +6,7 @@
              alt="img{{ $subCode }}"
              style="max-height: 80%; max-width: 80%; object-fit: contain;">
     </div>
-    <p class="text-center text-truncate px-2 mb-0" style="max-width: 10rem;">
+    <p class="h-6 text-center text-truncate px-2 mb-0" style="max-width: 10rem;">
         {{ $subTitle }}
     </p>
 </button>

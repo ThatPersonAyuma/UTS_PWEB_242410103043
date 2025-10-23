@@ -29,7 +29,7 @@
 <div class="card px-4 py-2">
     <div class="d-flex flex-column flex-lg-row justify-content-between">
         <p class="display-6"><strong>{{ $title }}</strong></p>
-        <button class="btn btn-primary shadow-sm"
+        <button class="btn btn-primary btn-sm shadow-sm"
             style="" onclick="">
             Unsubcribe   
         </button>
@@ -39,8 +39,8 @@
         <div class="progress-bar" style="width: {{ $progress }}%">{{ $progress }}%</div>
     </div>
 <div class="position-relative">
-    <button class="btn btn-light position-absolute top-50 start-0 translate-middle-y shadow-sm"
-        style="z-index:10;" onclick="scrollSlider('left')">
+    <button class="btn btn-light btn-sm position-absolute top-50 start-0 translate-middle-y shadow-sm"
+        style="z-index:10;font-size:1.2rem" onclick="scrollSlider('left')">
         ‹
     </button>
     <div id="slider-{{ $courseCode }}" class="subcourse-slider d-flex flex-nowrap overflow-auto gap-3 py-2">
@@ -52,8 +52,8 @@
                 />
         @endforeach
     </div>
-        <button class="btn btn-light position-absolute top-50 end-0 translate-middle-y shadow-sm"
-        style="z-index:10;;" onclick="scrollSlider('right')">
+    <button class="btn btn-light btn-sm position-absolute top-50 end-0 translate-middle-y shadow-sm"
+        style="z-index:10;font-size:1.2rem;" onclick="scrollSlider('right')">
         ›
     </button>
 </div>
