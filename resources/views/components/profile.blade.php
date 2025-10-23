@@ -122,7 +122,10 @@
                                         <label class="form-label">Bio / Tentang Saya</label>
                                         <textarea name="bio" class="form-control" rows="3">{{ $student['bio'] }}</textarea>
                                     </div>
-                                    <div class="col-12 text-end">
+                                    <div class="col-12 text-end d-flex justify-content-between">
+                                        <a href="{{ route('logout') }}" class="btn btn-danger rounded-pill px-4">
+                                            <i class="bi bi-save me-1"></i> Logout
+                                        </a>
                                         <button class="btn btn-primary rounded-pill px-4">
                                             <i class="bi bi-save me-1"></i> Simpan Perubahan
                                         </button>
